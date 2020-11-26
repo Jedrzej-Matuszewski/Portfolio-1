@@ -38,28 +38,31 @@
   <body>
     <header class="header">
       <img src="./images/logo.svg" alt="Logo of the page." />
-      <h1>Bartosz Białecki</h1>
-      <p>Software Developer</p>
+      <h1 class="header__title">Bartosz Białecki</h1>
+      <p class="header__subtitle">Software Developer</p>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="#">About me</a>
+      <nav class="nav">
+        <input type="checkbox" id="menu-toggle" class="nav__menu-toggle" />
+        <label class="nav__menu-button" for="menu-toggle"></label>
+
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">About me</a>
           </li>
-          <li>
-            <a href="#">Experience</a>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">Experience</a>
           </li>
-          <li>
-            <a href="#">Education</a>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">Education</a>
           </li>
-          <li>
-            <a href="#">Certifications</a>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">Certifications</a>
           </li>
-          <li>
-            <a href="#">Projects</a>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">Projects</a>
           </li>
-          <li>
-            <a href="#">Contact</a>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">Contact</a>
           </li>
         </ul>
       </nav>
