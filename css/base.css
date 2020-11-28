@@ -19,6 +19,7 @@
 html {
     box-sizing: border-box;
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -41,7 +42,7 @@ body {
 }
 
 img {
-    display: block;
+    display: inline-block;
     height: auto;
     max-width: 100%;
 }

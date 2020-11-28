@@ -38,7 +38,9 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <img src="./images/logo.svg" alt="Logo of the page." />
+        <a href="/">
+          <img src="./images/logo.svg" alt="Logo of the page." />
+        </a>
         <h1 class="header__title">Bartosz Białecki</h1>
         <p class="header__subtitle">Software Developer</p>
 
@@ -48,22 +50,24 @@
 
           <ul class="nav-list">
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#">About me</a>
+              <a class="nav-list__link" href="#about-me">About me</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#">Experience</a>
+              <a class="nav-list__link" href="#experience">Experience</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#">Education</a>
+              <a class="nav-list__link" href="#education">Education</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#">Certifications</a>
+              <a class="nav-list__link" href="#certifications"
+                >Certifications</a
+              >
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#">Projects</a>
+              <a class="nav-list__link" href="#projects">Projects</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#">Contact</a>
+              <a class="nav-list__link" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -71,7 +75,7 @@
 
       <main>
         <div class="main-content-wrapper">
-          <section class="about-me content-section">
+          <section id="about-me" class="about-me content-section">
             <div>
               <header
                 class="content-section__header content-section__header--left"
@@ -100,7 +104,7 @@
             />
           </section>
 
-          <section class="experience content-section">
+          <section id="experience" class="experience content-section">
             <header class="content-section__header">
               <h2>Experience</h2>
             </header>
@@ -130,7 +134,7 @@
             </ul>
           </section>
 
-          <section class="education content-section">
+          <section id="education" class="education content-section">
             <header class="content-section__header">
               <h2>Education</h2>
             </header>
@@ -153,13 +157,13 @@
             </ul>
           </section>
 
-          <section class="certifications content-section">
+          <section id="certifications" class="certifications content-section">
             <header class="content-section__header">
               <h2>Certifications</h2>
             </header>
 
-            <ul>
-              <li>
+            <ul class="certifications-list">
+              <li class="certifications-list__item">
                 <a
                   href="https://www.youracclaim.com/badges/e019e149-8a32-4245-8a0a-0d06f97c77df/public_url"
                   target="_blank"
@@ -172,7 +176,7 @@
                 </a>
                 <p>Issued on 31 March 2017</p>
               </li>
-              <li>
+              <li class="certifications-list__item">
                 <a
                   href="http://bcert.me/sfizsqix"
                   target="_blank"
@@ -186,7 +190,7 @@
                 </a>
                 <p>Issued on 25 August 2017</p>
               </li>
-              <li>
+              <li class="certifications-list__item">
                 <a
                   href="https://www.gasq.org/en/certification/check-a-certificate.html"
                   target="_blank"
@@ -199,15 +203,15 @@
                 </a>
                 <p>
                   ISTQB® - Certified Tester Foundation Level Syllabus 2018
-                  Version
+                  Version<br />
+                  CertificateID: 73336<br />
+                  Issued on 7 March 2020
                 </p>
-                <p>CertificateID: 73336</p>
-                <p>Issued on 7 March 2020</p>
               </li>
             </ul>
           </section>
 
-          <section class="projects content-section">
+          <section id="projects" class="projects content-section">
             <header class="content-section__header">
               <h2>Projects</h2>
             </header>
@@ -310,7 +314,7 @@
             </ul>
           </section>
 
-          <section class="contact content-section">
+          <section id="contact" class="contact content-section">
             <header class="content-section__header">
               <h2>Contact</h2>
             </header>
