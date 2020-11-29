@@ -153,6 +153,21 @@ ul {
     color: var(--button-hover-text-color);
 }
 
+.icon {
+    border: 1px solid var(--section-border-color);
+    border-radius: 100%;
+    display: inline-block;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.icon::before {
+    display: block;
+    font-size: 1.25em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    width: 2em;
+}
 .mobile-app-badge--app-store {
     background: url(https://linkmaker.itunes.apple.com/en-gb/badge-lrg.svg?bubble=ios_apps&kind=iossoftware&releaseDate=2011-01-28) no-repeat;
     display: inline-block;

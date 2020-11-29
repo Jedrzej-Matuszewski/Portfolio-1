@@ -18,8 +18,8 @@
     <meta property="og:locale" content="en" />
     <meta property="og:site_name" content="Bartosz Białecki | Portfolio" />
     <meta property="og:title" content="Bartosz Białecki | Portfolio" />
-    <meta property="og:image" content="./images/me.png" />
-    <meta property="og:image:secure_url" content="./images/me.png" />
+    <meta property="og:image" content="./assets/images/me.png" />
+    <meta property="og:image:secure_url" content="./assets/images/me.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="318" />
     <meta property="og:image:height" content="318" />
@@ -32,6 +32,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -39,7 +40,7 @@
     <div class="wrapper">
       <header class="header">
         <a href="/">
-          <img src="./images/logo.svg" alt="Logo of the page." />
+          <img src="./assets/images/logo.svg" alt="Logo of the page." />
         </a>
         <h1 class="header__title">Bartosz Białecki</h1>
         <p class="header__subtitle">Software Developer</p>
@@ -99,7 +100,7 @@
             </div>
             <img
               class="about-me__photo"
-              src="./images/me.png"
+              src="./assets/images/me.png"
               alt="My photo."
             />
           </section>
@@ -170,7 +171,7 @@
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="./images/it-fundamentals-logo-certified.png"
+                    src="./assets/images/it-fundamentals-logo-certified.png"
                     alt="CompTIA IT Fundamentals Certified Logo."
                   />
                 </a>
@@ -220,7 +221,7 @@
               <li class="projects-list__item project">
                 <img
                   class="project__photo"
-                  src="./images/faxde-mobile-app-screen.png"
+                  src="./assets/images/faxde-mobile-app-screen.png"
                   alt="Fax.de Mobile Apps Screens."
                 />
                 <div class="project__description">
@@ -291,7 +292,7 @@
               <li class="projects-list__item project">
                 <img
                   class="project__photo"
-                  src="images/faxde-website.png"
+                  src="./assets/images/faxde-website.png"
                   alt="Fax.de Website Screen."
                 />
                 <div class="project__description">
@@ -323,7 +324,7 @@
               <h2>Contact</h2>
             </header>
 
-            <div>
+            <div class="contact-wrapper">
               <form name="contact" method="post">
                 <div>
                   <label for="contact-name">Name</label>
@@ -366,7 +367,7 @@
                 </div>
               </form>
               <div>
-                <span class="fa-envelope" />
+                <span class="icon fas fa-envelope"></span>
                 <h3>Email</h3>
                 <span></span>
               </div>
@@ -381,7 +382,7 @@
           <ul>
             <li>
               <a
-                class="fa-facebook"
+                class="fab fa-facebook-f"
                 href="https://www.facebook.com/profile.php?id=100002071420524"
                 title="Facebook"
                 target="_blank"
@@ -392,7 +393,7 @@
             </li>
             <li>
               <a
-                class="fa-instagram"
+                class="fab fa-instagram"
                 href="https://www.instagram.com/bialek_84/"
                 title="Instagram"
                 target="_blank"
@@ -403,7 +404,7 @@
             </li>
             <li>
               <a
-                class="fa-github"
+                class="fab fa-github"
                 href="https://github.com/bartoszbialecki"
                 title="GitHub"
                 target="_blank"
@@ -414,7 +415,7 @@
             </li>
             <li>
               <a
-                class="fa-linkedin"
+                class="fab fa-linkedin-in"
                 href="https://www.linkedin.com/in/bartosz-białecki-502672157"
                 title="LinkedIn"
                 target="_blank"
@@ -425,7 +426,7 @@
             </li>
             <li>
               <a
-                class="fa-stack-overflow"
+                class="fab fa-stack-overflow"
                 href="https://stackoverflow.com/users/444301/bartosz-bialecki"
                 title="Stack Overflow"
                 target="_blank"
