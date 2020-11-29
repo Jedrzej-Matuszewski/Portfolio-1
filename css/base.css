@@ -41,16 +41,15 @@ body {
     padding: 0;
 }
 
-img {
-    display: inline-block;
-    height: auto;
-    max-width: 100%;
+a {
+    border-bottom: 1px dotted;
+    color: inherit;
+    text-decoration: none;
+    transition: color .2s ease, border-bottom .2s ease;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+a:hover {
+    border-bottom-color: transparent;
 }
 
 h1,
@@ -60,6 +59,22 @@ h4,
 h5,
 h6 {
     margin-top: 0;
+}
+
+img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+p {
+    margin: 0 0 1.5em;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 980px) {
@@ -136,6 +151,15 @@ h6 {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     color: var(--button-hover-text-color);
+}
+
+.mobile-app-badge--app-store {
+    background: url(https://linkmaker.itunes.apple.com/en-gb/badge-lrg.svg?bubble=ios_apps&kind=iossoftware&releaseDate=2011-01-28) no-repeat;
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+    margin-right: 1em;
+    width: 135px;
 }
 
 @media (max-width: 1680px) {
