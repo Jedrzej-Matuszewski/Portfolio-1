@@ -307,6 +307,7 @@
                   <p>Bootstrap, AngularJS, jQuery, Laravel</p>
                   <p>
                     <a
+                      class="link"
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://www.pc-fax.com/"
@@ -325,37 +326,49 @@
             </header>
 
             <div class="contact-wrapper">
-              <form name="contact" method="post">
-                <div>
-                  <label for="contact-name">Name</label>
+              <form class="form contact__form" name="contact" method="post">
+                <div
+                  class="form__field form__field--half form__field--half-first"
+                >
+                  <label class="form__label" for="contact-name">Name</label>
                   <input
+                    class="form__input"
                     type="text"
                     id="contact-name"
                     name="contactName"
                     required
                   />
                 </div>
-                <div>
-                  <label for="contact-email">Email</label>
+                <div
+                  class="form__field form__field--half form__field--half-second"
+                >
+                  <label class="form__label" for="contact-email">Email</label>
                   <input
+                    class="form__input"
                     type="email"
                     id="contact-email"
                     name="contactEmail"
                     required
                   />
                 </div>
-                <div>
-                  <label for="contact-subject">Subject</label>
+                <div class="form__field">
+                  <label class="form__label" for="contact-subject"
+                    >Subject</label
+                  >
                   <input
+                    class="form__input"
                     type="text"
                     id="contact-subject"
                     name="contactSubject"
                     required
                   />
                 </div>
-                <div>
-                  <label for="contact-message">Message</label>
+                <div class="form__field">
+                  <label class="form__label" for="contact-message"
+                    >Message</label
+                  >
                   <textarea
+                    class="form__input form__textarea"
                     id="contact-message"
                     name="contactMessage"
                     rows="6"
@@ -363,13 +376,20 @@
                   />
                 </div>
                 <div>
-                  <input type="submit" value="Send" />
+                  <input class="button" type="submit" value="Send" />
                 </div>
               </form>
-              <div>
-                <span class="icon fas fa-envelope"></span>
-                <h3>Email</h3>
-                <span></span>
+              <div class="contact__details">
+                <h3 class="contact__details-heading">
+                  <span class="icon fas fa-envelope"></span>Email
+                </h3>
+                <span
+                  ><a
+                    class="link"
+                    href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&colon;&#x62;&#x61;&#x72;&#x74;&#x6f;&#x73;&#x7a;&period;&#x62;&#x69;&#x61;&#x6c;&#x65;&#x63;&#x6b;&#x69;&commat;&#x67;&#x6d;&#x61;&#x69;&#x6c;&period;&#x63;&#x6f;&#x6d;"
+                    >&#x62;&#x61;&#x72;&#x74;&#x6f;&#x73;&#x7a;&period;&#x62;&#x69;&#x61;&#x6c;&#x65;&#x63;&#x6b;&#x69;&commat;&#x67;&#x6d;&#x61;&#x69;&#x6c;&period;&#x63;&#x6f;&#x6d;</a
+                  ></span
+                >
               </div>
             </div>
           </section>
