@@ -52,6 +52,7 @@ h3,
 h4,
 h5,
 h6 {
+    letter-spacing: -.025em;
     margin-top: 0;
 }
 
@@ -141,6 +142,10 @@ ul {
     border-radius: 100%;
     display: inline-block;
     transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.icon:hover {
+    background-color: hsla(0, 0%, 100%, .075);
 }
 
 .icon::before {
