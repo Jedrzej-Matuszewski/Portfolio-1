@@ -1,9 +1,12 @@
 @import './base.css';
 @import "./form.css";
+@import './timeline.css';
 @import './header.css';
 @import "./nav.css";
 @import "./about-me.css";
 @import "./certifications.css";
+@import "./experience.css";
+@import "./education.css";
 @import "./projects.css";
 @import "./contact.css";
 @import "./footer.css";

@@ -99,6 +99,7 @@ ul {
     display: flex;
     font-size: 1.6em;
     justify-content: center;
+    margin-bottom: 1em;
     text-align: center;
 }
 
