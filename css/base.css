@@ -4,7 +4,7 @@
     --background-text-secondary-color: #fff;
     --background-gradient-first-color: #13547a;
     --background-gradient-second-color: #80d0c7;
-    --navigation-background-color: #f7f7f7;
+    --navigation-background-color: hsla(0, 0%, 96.9%, .95);
     --mobile-navigation-bg-color: #13547af5;
     --mobile-navigation-link-hover-color: #80d0c7;
     --navigation-link-bg-color: #eeeeee;
