@@ -1,5 +1,12 @@
-# Portfolio
+<p align="center">
+    <img src="assets/images/logo.svg" alt="Logo" width="80" height="80">
 
-This is my portfolio page created in pure HTML and CSS.
+  <h1 align="center">Portfolio</h1>
 
-You can see it live at [https://bartoszbialecki.github.io/Portfolio/](https://bartoszbialecki.github.io/Portfolio/)
+  <p align="center">
+    My portfolio page created in pure HTML and CSS
+    <br />
+    <br />
+    <a href="https://bartoszbialecki.github.io/Portfolio/">View Demo</a>
+  </p>
+</p>
