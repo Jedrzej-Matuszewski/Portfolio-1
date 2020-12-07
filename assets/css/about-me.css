@@ -8,6 +8,11 @@
     border-radius: 100%;
     margin-left: 4em;
     padding: .65em;
+    transition: filter .5s ease;
+}
+
+.about-me__photo:hover {
+    filter: saturate(4);
 }
 
 .about-me .content-section__header h2::after {
