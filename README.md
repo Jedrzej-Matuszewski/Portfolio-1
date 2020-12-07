@@ -18,3 +18,12 @@
 - Parcel - this is a web application bundler and is used to create a site or a web application. Parcel has a development server built in, which will automatically rebuild the app as soon as files will change
 - PostCSS - this is a tool for transforming CSS with plugins like `autoprefixer` used in this project
 - gh-pages - this tool helps to publish the site at GitHub Pages
+
+## Screenshots
+<p align="center">
+    <img src="./github_assets/screen1.png" alt="First Screenshot" width="300" height="117">
+    <img src="./github_assets/screen2.png" alt="First Screenshot" width="300" height="193">
+</p>
+<p align="center">
+  <img src="./github_assets/screen3.png" alt="First Screenshot" width="300" height="543">
+</p>
