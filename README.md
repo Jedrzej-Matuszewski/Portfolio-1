@@ -24,8 +24,8 @@
     <img src="./github_assets/screen1.png" alt="First Screenshot" width="600" height="231">
 </p>
 <p align="center">
-  <img src="./github_assets/screen2.png" alt="First Screenshot" width="600" height="403">
+  <img src="./github_assets/screen2.png" alt="Second Screenshot" width="600" height="403">
 </p>
 <p align="center">
-  <img src="./github_assets/screen3.png" alt="First Screenshot" width="300" height="543">
+  <img src="./github_assets/screen3.png" alt="Third Screenshot" width="300" height="543">
 </p>
